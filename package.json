@@ -11,9 +11,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r dotenv/config index.js dotenv_config_path=./env/.dev.env dotenv_config_debug=true"
+    "start": "node -r dotenv/config index.js dotenv_config_path=./env/.dev.env dotenv_config_debug=true",
+    "deployCommand": "node -r dotenv/config deploy-commands.js dotenv_config_path=./env/.dev.env dotenv_config_debug=true"
   },
   "author": "artemis37",
   "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artemis37/Bot-Discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Artemis37/Bot-Discord/issues"
+  },
+  "homepage": "https://github.com/Artemis37/Bot-Discord#readme",
   "description": ""
 }
